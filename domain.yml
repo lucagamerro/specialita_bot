@@ -1,0 +1,299 @@
+--- 
+actions: 
+  - utter_start
+  - utter_allevatore
+  - utter_alpinista
+  - utter_amico_degli_animali
+  - utter_archeologo
+  - utter_artigiano
+  - utter_artista_di_strada
+  - utter_astronomo
+  - utter_attore
+  - utter_boscaiolo
+  - utter_botanico
+  - utter_campeggiatore
+  - utter_canoista
+  - utter_cantante
+  - utter_carpentiere_navale
+  - utter_ciclista
+  - utter_collezionista
+  - utter_coltivatore
+  - utter_cuoco
+  - utter_danzatore
+  - utter_disegnatore
+  - utter_elettricista
+  - utter_esperto_del_computer
+  - utter_europeista
+  - utter_falegname
+  - utter_fa_tutto
+  - utter_folclorista
+  - utter_fotografo
+  - utter_giardiniere
+  - utter_giocattolaio
+  - utter_grafico
+  - utter_guida
+  - utter_hebertista
+  - utter_idraulico
+  - utter_infermiere
+  - utter_interprete
+  - utter_lavoratore_in_cuoio
+  - utter_maestro_dei_giochi
+  - utter_maestro_dei_nodi
+  - utter_meccanico
+  - utter_modellista
+  - utter_muratore
+  - utter_musicista
+  - utter_naturalista
+  - utter_nuotatore
+  - utter_osservatore
+  - utter_osservatore_meteo
+  - utter_pescatore
+  - utter_pompiere
+  - utter_redattore
+  - utter_regista
+  - utter_sarto
+  - utter_scenografo
+  - utter_segnalatore
+  - utter_servizio_liturgico
+  - utter_topografo
+  - utter_traduttore
+  - utter_velista
+  - utter_sicuro
+intents: 
+  - start
+  - allevatore
+  - alpinista
+  - amico_degli_animali
+  - archeologo
+  - artigiano
+  - artista_di_strada
+  - astronomo
+  - attore
+  - boscaiolo
+  - botanico
+  - campeggiatore
+  - canoista
+  - cantante
+  - carpentiere_navale
+  - ciclista
+  - collezionista
+  - coltivatore
+  - cuoco
+  - danzatore
+  - disegnatore
+  - elettricista
+  - esperto_del_computer
+  - europeista
+  - falegname
+  - fa_tutto
+  - folclorista
+  - fotografo
+  - giardiniere
+  - giocattolaio
+  - grafico
+  - guida
+  - hebertista
+  - idraulico
+  - infermiere
+  - interprete
+  - lavoratore_in_cuoio
+  - maestro_dei_giochi
+  - maestro_dei_nodi
+  - meccanico
+  - modellista
+  - muratore
+  - musicista
+  - naturalista
+  - nuotatore
+  - osservatore
+  - osservatore_meteo
+  - pescatore
+  - pompiere
+  - redattore
+  - regista
+  - sarto
+  - scenografo
+  - segnalatore
+  - servizio_liturgico
+  - traduttore
+  - topografo
+  - velista
+  - sicuro
+templates: 
+  utter_start: 
+    - 
+      text: "Ciao! Sono un bot e ti aiutero' nella scelta di una specialità. Dimmi un tuo interesse e provero' a trovare una specialità coerente (se sbaglio, riferiscilo a Luca). Vai!"
+  utter_allevatore: 
+    - 
+      text: "potrebbe intaressarti la specialità di allevatore"
+  utter_alpinista: 
+    - 
+      text: "potrebbe intaressarti la specialità di alpinista"
+  utter_amico_degli_animali: 
+    - 
+      text: "potrebbe intaressarti la specialità di amico degli animali"
+  utter_archeologo: 
+    - 
+      text: "potrebbe intaressarti la specialità di archeologo"
+  utter_artigiano: 
+    - 
+      text: "potrebbe intaressarti la specialità di artigiano"
+  utter_artista_di_strada: 
+    - 
+      text: "potrebbe intaressarti la specialità di artista di strada"
+  utter_astronomo: 
+    - 
+      text: "potrebbe intaressarti la specialità di astronomo"
+  utter_attore: 
+    - 
+      text: "potrebbe intaressarti la specialità di attore"
+  utter_boscaiolo: 
+    - 
+      text: "potrebbe intaressarti la specialità di boscaiolo"
+  utter_botanico: 
+    - 
+      text: "potrebbe intaressarti la specialità di botanico"
+  utter_campeggiatore: 
+    - 
+      text: "potrebbe intaressarti la specialità di campeggiatore"
+  utter_canoista: 
+    - 
+      text: "potrebbe intaressarti la specialità di canoista"
+  utter_cantante: 
+    - 
+      text: "potrebbe intaressarti la specialità di cantante"
+  utter_carpentiere_navale: 
+    - 
+      text: "potrebbe intaressarti la specialità di carpentiere navale"
+  utter_ciclista: 
+    - 
+      text: "potrebbe intaressarti la specialità di ciclista"
+  utter_collezionista: 
+    - 
+      text: "potrebbe intaressarti la specialità di collezionista"
+  utter_coltivatore: 
+    - 
+      text: "potrebbe intaressarti la specialità di coltivatore"
+  utter_cuoco: 
+    - 
+      text: "potrebbe intaressarti la specialità di cuoco"
+  utter_danzatore: 
+    - 
+      text: "potrebbe intaressarti la specialità di danzatore"
+  utter_disegnatore: 
+    - 
+      text: "potrebbe intaressarti la specialità di disegnatore"
+  utter_elettricista: 
+    - 
+      text: "potrebbe intaressarti la specialità di elettricista"
+  utter_esperto_del_computer: 
+    - 
+      text: "potrebbe intaressarti la specialità di esperto del computer"
+  utter_europeista: 
+    - 
+      text: "potrebbe intaressarti la specialità di europeista"
+  utter_fa_tutto: 
+    - 
+      text: "potrebbe intaressarti la specialità di fa tutto"
+  utter_falegname: 
+    - 
+      text: "potrebbe intaressarti la specialità di falegname"
+  utter_folclorista: 
+    - 
+      text: "potrebbe intaressarti la specialità di folclorista"
+  utter_fotografo: 
+    - 
+      text: "potrebbe intaressarti la specialità di fotografo"
+  utter_giardiniere: 
+    - 
+      text: "potrebbe intaressarti la specialità di giardiniere"
+  utter_giocattolaio: 
+    - 
+      text: "potrebbe intaressarti la specialità di giocattolaio"
+  utter_grafico: 
+    - 
+      text: "potrebbe intaressarti la specialità di grafico"
+  utter_guida: 
+    - 
+      text: "potrebbe intaressarti la specialità di guida"
+  utter_hebertista: 
+    - 
+      text: "potrebbe intaressarti la specialità di hebertista"
+  utter_idraulico: 
+    - 
+      text: "potrebbe intaressarti la specialità di idraulico"
+  utter_infermiere: 
+    - 
+      text: "potrebbe intaressarti la specialità di infermiere"
+  utter_interprete: 
+    - 
+      text: "potrebbe intaressarti la specialità di interprete"
+  utter_lavoratore_in_cuoio: 
+    - 
+      text: "potrebbe intaressarti la specialità di lavoratore in cuoio"
+  utter_maestro_dei_giochi: 
+    - 
+      text: "potrebbe intaressarti la specialità di maestro dei giochi"
+  utter_maestro_dei_nodi: 
+    - 
+      text: "potrebbe intaressarti la specialità di maestro dei nodi"
+  utter_meccanico: 
+    - 
+      text: "potrebbe intaressarti la specialità di meccanico"
+  utter_modellista: 
+    - 
+      text: "potrebbe intaressarti la specialità di modellista"
+  utter_muratore: 
+    - 
+      text: "potrebbe intaressarti la specialità di muratore"
+  utter_musicista: 
+    - 
+      text: "potrebbe intaressarti la specialità di musicista"
+  utter_naturalista: 
+    - 
+      text: "potrebbe intaressarti la specialità di naturalista"
+  utter_nuotatore: 
+    - 
+      text: "potrebbe intaressarti la specialità di nuotatore"
+  utter_osservatore: 
+    - 
+      text: "potrebbe intaressarti la specialità di osservatore"
+  utter_osservatore_meteo: 
+    - 
+      text: "potrebbe intaressarti la specialità di osservatore meteo"
+  utter_pescatore: 
+    - 
+      text: "potrebbe intaressarti la specialità di pescatore"
+  utter_pompiere: 
+    - 
+      text: "potrebbe intaressarti la specialità di pompiere"
+  utter_redattore: 
+    - 
+      text: "potrebbe intaressarti la specialità di redattore"
+  utter_regista: 
+    - 
+      text: "potrebbe intaressarti la specialità di regista"
+  utter_sarto: 
+    - 
+      text: "potrebbe intaressarti la specialità di sarto"
+  utter_scenografo: 
+    - 
+      text: "potrebbe intaressarti la specialità di scenografo"
+  utter_segnalatore: 
+    - 
+      text: "potrebbe intaressarti la specialità di segnalatore"
+  utter_servizio_liturgico: 
+    - 
+      text: "potrebbe intaressarti la specialità di servizio litergico"
+  utter_topografo: 
+    - 
+      text: "potrebbe intaressarti la specialità di topografo"
+  utter_traduttore: 
+    - 
+      text: "potrebbe intaressarti la specialità di traduttore"
+  utter_velista: 
+    - 
+      text: "potrebbe intaressarti la specialità di velista"
+  utter_sicuro: 
+    - 
+      text: "Umh... La percentuale di confidenza è del 0.07028483599424362. Se riscontri errosi evidenti dillo a Luca."
